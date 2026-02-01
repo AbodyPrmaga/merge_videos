@@ -23,7 +23,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed --name MyApp app.py
+        pyinstaller --onefile --windowed --name VideoMerger --icon=icon.ico app.py
 
     - name: List dist folder
       run: |
